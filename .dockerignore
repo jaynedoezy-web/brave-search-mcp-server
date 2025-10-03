@@ -1,0 +1,26 @@
+# Ignore local dependencies
+node_modules
+npm-debug.log
+
+# Ignore build output (builder will generate fresh dist/)
+dist
+build
+
+# Ignore environment and secret files
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+# Ignore OS / editor junk
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode
+.idea
+
+# Ignore Git
+.git
+.gitignore
